@@ -1,0 +1,10 @@
+# Gets John Doe's Bank Account
+query GET_BANK_ACCOUNT($id: ID){
+    bankAccount(id: $id){
+        currency
+        client {
+            firstName
+            lastName
+        }
+    }
+}
