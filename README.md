@@ -12,4 +12,5 @@ This project demonstrates the GraphQL using Java Spring Boot application.
 - Uses maven-pmd-plugin for static analysis of code
 
 - Enable GraphQL Playground (available at http://localhost:8080/playground) for interacting with GraphQL server by setting: graphql.playground.enabled=true
+- 
 
